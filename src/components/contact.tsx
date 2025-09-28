@@ -93,10 +93,10 @@ export default function Contact() {
                 Prefer email?
               </div>
               <a
-                href="mailto:hello@missionpointers.co.uk"
+                href="mailto:hello@missionpointers.com"
                 className="mt-2 block text-lg font-medium text-[#246c7b] hover:underline"
               >
-                hello@missionpointers.co.uk
+                hello@missionpointers.com
               </a>
               <p className="mt-4 text-sm text-gray-600">
                 We usually respond within 2 working days. Include any context —
