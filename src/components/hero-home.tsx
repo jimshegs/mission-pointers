@@ -11,7 +11,7 @@ export default function HeroHome() {
           <div className="pb-12 text-center md:pb-16">
             <div className="mb-6" data-aos="zoom-y-out">
               <p className="inline-block rounded-full bg-[#246c7b]/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.35em] text-[#246c7b]">
-                All-round support for VCFSE organisations
+                Tech & AI for charities
               </p>
             </div>
             <h1
@@ -19,8 +19,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Empowering charities to work smarter,
-              <br className="max-lg:hidden" /> grow stronger
+              Practical AI that helps charities
+              <br className="max-lg:hidden" /> do more with less
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -28,9 +28,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Strategy, tech, and funding support purpose-built for voluntary,
-                community, faith and social enterprise teams that want to scale
-                impact without losing sight of their mission.
+                We help charities adopt AI safely and effectively — from automating workflows and strengthening fundraising intelligence to building custom AI tools that help teams achieve more with limited resources.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center" data-aos="zoom-y-out" data-aos-delay={450}>
                 <a
@@ -38,7 +36,7 @@ export default function HeroHome() {
                   href="#contact"
                 >
                   <span className="relative inline-flex items-center">
-                    Book a Free Discovery Call
+                    Book an AI Discovery Call
                     <span className="ml-1 tracking-normal text-[#b7d7dd] transition-transform group-hover:translate-x-0.5">
                       -&gt;
                     </span>
@@ -48,7 +46,7 @@ export default function HeroHome() {
                   className="btn w-full border border-[#246c7b]/30 bg-white text-[#246c7b] shadow-sm transition hover:bg-[#e8f3f5] sm:ml-4 sm:w-auto"
                   href="#services"
                 >
-                  See What We Do
+                  Explore Our Services
                 </a>
               </div>
             </div>
@@ -67,27 +65,19 @@ export default function HeroHome() {
               </div>
               <div className="font-mono text-gray-500 [&_span]:opacity-0">
                 <span className="animate-[code-1_10s_infinite] text-gray-200">
-                  Discovery call scheduled
+                  AI discovery call scheduled
                 </span>
                 <br />
                 <span className="animate-[code-2_10s_infinite]">
-                  Strategy sprint scoped for trustees
+                  AI readiness & use-cases mapped
                 </span>
                 <br />
                 <span className="animate-[code-3_10s_infinite]">
-                  Grant pipeline mapped for FY26
+                  Grant opportunities prioritised
                 </span>
                 <br />
                 <span className="animate-[code-4_10s_infinite]">
-                  Digital toolkit rolled out to teams
-                </span>
-                <br />
-                <span className="animate-[code-5_10s_infinite] text-gray-200">
-                  Impact story drafted for funders
-                </span>
-                <br />
-                <span className="animate-[code-6_10s_infinite]">
-                  Funding bid submitted with confidence
+                  Admin workflows automated in weeks
                 </span>
               </div>
             </div>

@@ -13,11 +13,11 @@ export default function Cta() {
 
           <div className="px-4 py-12 md:px-12 md:py-20">
             <h2 className="mb-6 text-3xl font-bold text-white md:mb-8 md:text-4xl">
-              Ready to build smarter, fund better, and grow stronger?
+              Ready to put AI to work in your charity?
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-white/75">
-              Book a free discovery call and we’ll map a practical path forward
-              for your team.
+              Book a free AI discovery call and we’ll map the quickest, safest
+              wins for your team.
             </p>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a

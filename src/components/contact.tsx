@@ -8,11 +8,11 @@ export default function Contact() {
               Get in touch
             </span>
             <h2 className="mt-4 text-3xl font-bold md:text-4xl">
-              Let’s start with a free discovery call
+              Let’s start with a free AI discovery call
             </h2>
             <p className="mt-4 text-lg text-gray-700">
               We’ll reply within 2 working days. Prefer email? Use the address
-              below — and if you’re interested in tools like GrantRadar, mention
+              below — and if you’re interested in AI tools we build, mention
               that in your message.
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function Contact() {
                     name="organisation"
                     type="text"
                     className="block w-full rounded-md border-gray-300 bg-white px-3 py-2 text-gray-900 shadow-sm focus:border-[#246c7b] focus:ring-[#246c7b]"
-                    placeholder="Your charity / VCFSE organisation"
+                    placeholder="Your charity / nonprofit"
                   />
                 </div>
                 <div className="sm:col-span-2">
@@ -73,7 +73,7 @@ export default function Contact() {
                     rows={5}
                     required
                     className="block w-full rounded-md border-gray-300 bg-white px-3 py-2 text-gray-900 shadow-sm focus:border-[#246c7b] focus:ring-[#246c7b]"
-                    placeholder="Tell us a little about your goals or challenges…"
+                    placeholder="Tell us what you’d like AI to help with (and what tools you use)…"
                   />
                 </div>
               </div>
@@ -99,9 +99,9 @@ export default function Contact() {
                 hello@missionpointers.com
               </a>
               <p className="mt-4 text-sm text-gray-600">
-                We usually respond within 2 working days. Include any context —
-                timelines, budget considerations, or the tools you use — and we’ll
-                come prepared.
+                We usually respond within 2 working days. Include any context such as
+                your current tools, what you’d like AI to help with, and any data
+                constraints, and we’ll come prepared.
               </p>
             </aside>
           </div>
@@ -110,4 +110,3 @@ export default function Contact() {
     </section>
   );
 }
-

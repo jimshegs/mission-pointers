@@ -1,8 +1,8 @@
 export default function WhyMissionPointers() {
   const items = [
     {
-      title: "Empathetic & Experienced",
-      desc: "Built by operators who’ve done the work",
+      title: "Responsible by Default",
+      desc: "Safeguarding, privacy, and governance built in",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -20,8 +20,8 @@ export default function WhyMissionPointers() {
       ),
     },
     {
-      title: "Tailored, Not Templated",
-      desc: "Practical help shaped to your context",
+      title: "Designed for Small Teams",
+      desc: "Quick wins first, with training and templates",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +41,8 @@ export default function WhyMissionPointers() {
       ),
     },
     {
-      title: "Sector‑Specific Tech & Data",
-      desc: "Funding, reporting and digital fluency",
+      title: "Tools + Support",
+      desc: "We build sector‑tailored AI tools, plus AI-enabled workflows and systems",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -61,8 +61,8 @@ export default function WhyMissionPointers() {
       ),
     },
     {
-      title: "UK‑Based, Remote‑Friendly",
-      desc: "Easy collaboration across teams and boards",
+      title: "Outcomes You Can Measure",
+      desc: "Less admin, better bids, clearer reporting",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -83,32 +83,43 @@ export default function WhyMissionPointers() {
   ];
 
   return (
-    <section id="why" className="relative bg-white">
+    <section
+      id="why"
+      className="relative overflow-hidden bg-[linear-gradient(180deg,_#1b4853,_#1f5764)]"
+    >
+      {/* soft glow accents */}
+      <div className="pointer-events-none absolute -top-24 right-24 -z-10 h-72 w-72 rounded-full bg-[#b7d7dd]/20 blur-3xl" />
+      <div className="pointer-events-none absolute -bottom-16 left-24 -z-10 h-80 w-80 rounded-full bg-[#0f2f35]/40 blur-3xl" />
+
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-16 md:py-20">
           <div className="mx-auto max-w-3xl text-center" data-aos="zoom-y-out">
-            <span className="inline-block rounded-full bg-[#246c7b]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.35em] text-[#246c7b]">
+            <span className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.35em] text-[#b7d7dd]">
               Why Mission Pointers
             </span>
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">
-              Practical. Sector‑savvy. Built for outcomes.
+            <h2 className="mt-4 text-3xl font-bold text-white md:text-4xl">
+              Charity‑first AI, built to ship.
             </h2>
+            <p className="mt-4 text-lg text-white/70">
+              We make AI adoption simple: clear decisions, safe foundations, and
+              practical delivery.
+            </p>
           </div>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {items.map((item) => (
               <div
                 key={item.title}
-                className="group rounded-2xl border border-[#246c7b]/15 bg-white p-5 shadow-sm transition hover:border-[#246c7b]/25 hover:shadow-md"
+                className="group rounded-2xl bg-white/5 p-5 shadow-sm ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-white/20"
                 data-aos="fade-up"
               >
                 <div className="flex items-start gap-3">
-                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-[#246c7b]/10 text-[#246c7b]">
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-[#b7d7dd]/15 text-[#b7d7dd]">
                     {item.icon}
                   </span>
                   <div>
-                    <div className="font-semibold">{item.title}</div>
-                    <div className="mt-1 text-sm text-gray-600">{item.desc}</div>
+                    <div className="font-semibold text-white">{item.title}</div>
+                    <div className="mt-1 text-sm text-white/70">{item.desc}</div>
                   </div>
                 </div>
               </div>
@@ -119,48 +130,3 @@ export default function WhyMissionPointers() {
     </section>
   );
 }
-
-// return (
-//     <section
-//       id="why"
-//       className="relative overflow-hidden bg-[linear-gradient(180deg,_#1b4853,_#1f5764)]"
-//     >
-//       {/* soft glow accents */}
-//       <div className="pointer-events-none absolute -top-24 right-24 -z-10 h-72 w-72 rounded-full bg-[#b7d7dd]/20 blur-3xl" />
-//       <div className="pointer-events-none absolute -bottom-16 left-24 -z-10 h-80 w-80 rounded-full bg-[#0f2f35]/40 blur-3xl" />
-
-//       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-//         <div className="py-16 md:py-20">
-//           <div className="mx-auto max-w-3xl text-center" data-aos="zoom-y-out">
-//             <span className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.35em] text-[#b7d7dd]">
-//               Why Mission Pointers
-//             </span>
-//             <h2 className="mt-4 text-3xl font-bold text-white md:text-4xl">
-//               Practical. Sector‑savvy. Built for outcomes.
-//             </h2>
-//           </div>
-
-//           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-//             {items.map((item) => (
-//               <div
-//                 key={item.title}
-//                 className="group rounded-2xl bg-white/5 p-5 shadow-sm ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-white/20"
-//                 data-aos="fade-up"
-//               >
-//                 <div className="flex items-start gap-3">
-//                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-[#b7d7dd]/15 text-[#b7d7dd]">
-//                     {item.icon}
-//                   </span>
-//                   <div>
-//                     <div className="font-semibold text-white">{item.title}</div>
-//                     <div className="mt-1 text-sm text-white/70">{item.desc}</div>
-//                   </div>
-//                 </div>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }

@@ -30,12 +30,14 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-xl font-bold text-gray-900">
-              “As a small team, we were stretched thin. Mission Pointers didn’t just help with bids, they{" "}
-              <em className="italic text-gray-500">showed us practical ways</em> {" "}
-              to manage data, evidence outcomes, and streamline our processes. It feels like we’ve gained extra capacity.”
+              “We were curious about AI, but wary. Mission Pointers helped us
+              <em className="italic text-gray-500"> put safeguards in place</em>{" "}
+              and roll out a few high-impact automations. Our reporting is
+              quicker, our bids are sharper, and the team has breathing room
+              again.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">VCFSE Leader</span>{" "}
+              <span className="text-gray-700">Charity CEO</span>{" "}
               {/* <span className="text-gray-400">/</span>{" "} */}
               {/* <a className="text-blue-500" href="#0">
                 CTO at Microsoft

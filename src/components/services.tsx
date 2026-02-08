@@ -15,16 +15,16 @@ export default function Services() {
               What We Do
             </span>
             <h2 className="mt-4 text-3xl font-bold text-white md:text-4xl">
-              End‑to‑end support for modern charities
+              AI services built for charity teams
             </h2>
             <p className="mt-4 text-lg text-white/70">
-              We help VCFSE teams align strategy, tooling, funding and impact —
-              so you can focus on delivering outcomes.
+              A practical, safe approach to adopting AI: choose the right use
+              cases, protect your data, and ship workflows that save time.
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {/* Strategy & Development */}
+            {/* AI Strategy & Governance */}
             <article
               className="group rounded-2xl bg-white/5 p-6 shadow-sm ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-white/20"
               data-aos="fade-up"
@@ -44,20 +44,26 @@ export default function Services() {
                   <circle cx="12" cy="12" r="3" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white">Strategy &amp; Development</h3>
+              <h3 className="text-lg font-semibold text-white">
+                AI Strategy &amp; Governance
+              </h3>
               <ul className="mt-3 space-y-2 text-sm text-white/70">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Theory of Change, outcome frameworks
+                  AI readiness, use-case roadmap, quick wins
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Strategic planning and delivery support
+                  Policies, safeguarding, GDPR, human-in-the-loop
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1 text-[#b7d7dd]">•</span>
+                  Trustee/leadership briefings and decision support
                 </li>
               </ul>
             </article>
 
-            {/* Tools & Tech for Charities */}
+            {/* Automation & Workflows */}
             <article
               className="group rounded-2xl bg-white/5 p-6 shadow-sm ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-white/20"
               data-aos="fade-up"
@@ -79,24 +85,26 @@ export default function Services() {
                   <path d="M4 15l8 4 8-4" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white">Tools &amp; Tech for Charities</h3>
+              <h3 className="text-lg font-semibold text-white">
+                Automation &amp; Workflows
+              </h3>
               <ul className="mt-3 space-y-2 text-sm text-white/70">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Access to GrantRadar
+                  AI-assisted admin and reporting workflows
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Setup for Notion, Airtable, Trello
+                  Notion/Airtable/CRM setup + integrations
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Digital maturity assessment
+                  Internal knowledge base + staff enablement
                 </li>
               </ul>
             </article>
 
-            {/* Funding Support */}
+            {/* Fundraising & Grant Intelligence */}
             <article
               className="group rounded-2xl bg-white/5 p-6 shadow-sm ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-white/20"
               data-aos="fade-up"
@@ -118,20 +126,26 @@ export default function Services() {
                   <path d="M20 11v6c0 1.7-3.6 3-8 3s-8-1.3-8-3v-6" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white">Funding Support</h3>
+              <h3 className="text-lg font-semibold text-white">
+                Fundraising &amp; Grant Intelligence
+              </h3>
               <ul className="mt-3 space-y-2 text-sm text-white/70">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Fundraising strategy, reviews &amp; bid support
+                  AI tools + smarter pipeline planning
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Pipeline planning and funder mapping
+                  Prospect research, bid reviews and drafting support
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1 text-[#b7d7dd]">•</span>
+                  Evidence packs and reusable bid components
                 </li>
               </ul>
             </article>
 
-            {/* Impact & Operational Excellence */}
+            {/* Data, Impact & Insight */}
             <article
               className="group rounded-2xl bg-white/5 p-6 shadow-sm ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-white/20"
               data-aos="fade-up"
@@ -152,15 +166,21 @@ export default function Services() {
                   <path d="m7 14 4-4 3 3 5-5" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white">Impact &amp; Operational Excellence</h3>
+              <h3 className="text-lg font-semibold text-white">
+                Data, Impact &amp; Insight
+              </h3>
               <ul className="mt-3 space-y-2 text-sm text-white/70">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Data storytelling &amp; reporting
+                  Data models, dashboards, impact storytelling
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 text-[#b7d7dd]">•</span>
-                  Policy templates, audits &amp; compliance
+                  Reporting, compliance checks, funder requirements
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1 text-[#b7d7dd]">•</span>
+                  Measurement frameworks and learning loops
                 </li>
               </ul>
             </article>
@@ -170,4 +190,3 @@ export default function Services() {
     </section>
   );
 }
-
