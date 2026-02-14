@@ -19,8 +19,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Practical AI that helps charities
-              <br className="max-lg:hidden" /> do more with less
+              Building the digital backbone   
+              <br className="max-lg:hidden" /> for modern charities
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -28,7 +28,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                We help charities adopt AI safely and effectively — from automating workflows and strengthening fundraising intelligence to building custom AI tools that help teams achieve more with limited resources.
+                We help charities adopt AI safely and effectively, from automating workflows and fundraising intelligence to building custom AI tools that help teams do more with less.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center" data-aos="zoom-y-out" data-aos-delay={450}>
                 <a
