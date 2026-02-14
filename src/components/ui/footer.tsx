@@ -15,12 +15,16 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <p className="text-sm text-gray-600">
-              Mission Pointers helps charities adopt AI responsibly — choosing
+              Mission Pointers helps charities adopt AI responsibly: choosing
               the right use cases, protecting data and trust, and building
               workflows and tools that save time.
             </p>
-            <p className="pt-2 text-sm text-gray-600">
-              &copy; Mission Pointers — All rights reserved.
+            <p className="pt-1 text-xs text-gray-600">
+              Mission Pointers CIC is registered in England &amp; Wales. Company
+              number: 17022015
+            </p>
+            <p className="pt-2 text-xs text-gray-600">
+              &copy; Mission Pointers CIC — All rights reserved.
             </p>
           </div>
 
